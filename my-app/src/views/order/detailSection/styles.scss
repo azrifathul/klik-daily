@@ -1,0 +1,13 @@
+.section-detail-container {
+  display: flex;
+  .section-detail__left {
+    width: 25%;
+  }
+
+  .section-detail__right {
+    width: 75%;
+    .v-picker {
+      width: 300px;
+    }
+  }
+}

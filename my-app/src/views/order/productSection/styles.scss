@@ -1,0 +1,23 @@
+.section-product-container {
+  display: flex;
+  .section-product__left {
+    width: 25%;
+  }
+
+  .section-product__right {
+    width: 75%;
+    position: relative;
+  }
+
+  .icon {
+    position: absolute;
+    left: -27px;
+    top: 29px;
+    color: red;
+    cursor: pointer;
+  }
+
+  .subtotal-text {
+    margin: 16px 0 32px;
+  }
+}
