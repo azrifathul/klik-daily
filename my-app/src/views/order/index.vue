@@ -20,7 +20,7 @@
 
       <v-divider></v-divider>
 
-      <div class="total-text flex flex-between">
+      <div class="total-text flex flex-between" v-if="checkDetailSection">
         <H3>Total</H3>
         <h4>{{totalPriceHandler}}</h4>
       </div>
